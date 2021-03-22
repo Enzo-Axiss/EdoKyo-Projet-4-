@@ -1,0 +1,15 @@
+Meli
+Enzo
+
+Thème : la cohésion entre tradition et modernité au Japon.
+
+j'ai pris ce thème car c'est un sujet qui m'interpel et que je trouve important.
+j'ai utilisé HTML / CSS /JS et bootsrap.
+Les différentes images du site sont des images libres de droit et proviennent de pixabay que j'ai par la suite modifié 
+sur photoshop afin qu'elle s'intègre mieux au site ainsi qu'à ma charte graphique.
+J'ai utilisé media-queries afin que mon site sois responsive un maximum sur chaque format.
+j'ai mis quelques animation en CSS et JS en rapport avec mon sujet afin d'animer un peux le site.
+j'ai donc 3 pages + 1 page contact, j'ai utilisé 2 pages pour illustrer mon thème car 
+une seul ne refletais pas le resultat que je souhaitais.
+
+ 

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<title>Contact</title>
+<link rel="stylesheet" href="../css/contact.css">
+
+</head>
+    <body> 
+      <main>
+
+        <div class="parent">
+          <div class="child left">
+            <p>
+              Enzo Meli<br>
+              ZA du Teraillet, 110 Rue des Tenettes,<br>
+               73190 Saint-Baldoph
+            </p>
+            <p></p>
+          </div>
+          <div class="child"> 
+            
+            <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+            <table class="form-style">
+               <tr>
+                  <td>
+                     <label>
+                        Votre nom <span class="required">*</span>
+                     </label>
+                  </td>
+                  <td>
+                     <input type="text" name="name" class="long"/>
+                     <span class="error" id="errorname"></span>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label>
+                        Votre adresse e-mail <span class="required">*</span>
+                     </label>
+                  </td>
+                  <td>
+                     <input type="email" name="email" class="long"/>
+                     <span class="error" id="erroremail"></span>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label>
+                        Message <span class="required">*</span>
+                     </label>
+                  </td>
+                  <td>
+                     <textarea name="message" class="long field-textarea"></textarea>
+                     <span class="error" id="errormsg"></span>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>
+                     <input type="submit" value="Envoyer">      
+                     <input type="reset" value="Réinitialiser"> 
+                  </td>
+               </tr>
+            </table>
+         </form></div> 
+        </div>
+
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+          <div class="firefly"></div>  
+ 
+            <footer>
+
+              
+            <div class="social"> 
+              <a  href="facebook.com" ><img src="../image/Facebook.png"></a> <a><i class="icon ion-social-instagram"></i></a>
+              <a  href="instagram.com" ><img src="../image/instagram.png"></a> <a><i class="icon ion-social-snapchat"></i></a>
+              <a  href="linkedin.com" ><img src="../image/linkedin.png"></a> <a><i class="icon ion-social-twitter"></i></a>
+            </div>
+
+             <section>&emsp;</section> 
+             <section>&emsp;</section> 
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="../index.html">Home</a></li>
+                <li class="list-inline-item"><a href="../html/contact.html">Contact</a></li>
+                <li class="list-inline-item"><a href="../html/mentionslegales.html">Mentions légales</a></li>
+            </ul>
+            <p class="copyright">EdoKyo © 2021</p>
+          </footer>
+
+              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+              <script type="text/javascript" src="../js/main.js"></script>
+              <style type="text/css">
+                div.clickEffect{
+                  position:fixed;
+                  box-sizing:border-box;
+                  border-style:solid;
+                  border-color:#e1e449e5;
+                  border-radius:50%;
+                  animation:clickEffect 0.4s ease-out;
+                  z-index:99999;
+                }
+                @keyframes clickEffect{
+                  0%{
+                    opacity:1;
+                    width:0.5em; height:0.5em;
+                    margin:-0.25em;
+                    border-width:0.5rem;
+                  }
+                  100%{
+                    opacity:0.2;
+                    width:15em; height:15em;
+                    margin:-7.5em;
+                    border-width:0.03rem;
+                  }
+                }
+                </style>
+                <script type="text/javascript">
+                
+                function clickEffect(e){
+                  var d=document.createElement("div");
+                  d.className="clickEffect";
+                  d.style.top=e.clientY+"px";d.style.left=e.clientX+"px";
+                  document.body.appendChild(d);
+                  d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
+                }
+                document.addEventListener('click',clickEffect);
+                
+                </script>
+  
+  
+          </footer>
+
+    </body>
+
+</html>
